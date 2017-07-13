@@ -6,7 +6,7 @@
 # laurent.modolo@ens-lyon.fr
 #
 # This software is a computer program whose purpose is to test the
-# src/func/file_handle.py program of this project
+# src/file_handle.py program of this project
 #
 # This software is governed by the CeCILL  license under French law and
 # abiding by the rules of distribution of free software.  You can  use,
@@ -38,7 +38,7 @@ import unittest
 import datetime
 import os
 import sys
-sys.path.append(os.path.abspath("src/func/"))
+sys.path.append(os.path.abspath("src/"))
 from file_handle import Dated_file
 from file_handle import Dated_file_list
 
